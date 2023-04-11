@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+.img_container{
+    /* height: 100vh; */
+    width: 40vw;
+    background-image: url(./leaf.jpg);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.text_container{
+    padding-top: 100px;
+    padding-left: 40px;
+    width: 90%;
+}
+
+.s_text{
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.form_container{
+    background-color: antiquewhite;
+    padding-left: 40px;
+}
+
+.text_box{
+    width: 100%;
+    background-color: aquamarine
+}
+
+/* .form{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 33% 33% 33%;
+} */
+
+.form_container div h3{
+    padding: 20px;
+}
+
+.actForm{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.actForm div{
+    display: flex;
+}
+
+.row1, .row2, .row3{
+    display: flex;
+    padding-bottom: 30px;
+    gap: 30px;
+}
+
+.row1 div, .row2 div, .row3 div{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+div h3{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+input{
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid #e4e4e6;
+}
+
+.btn{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    background-color: #5388b3;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px
+}
+
+.bottom_pg{
+    padding-top: 30px;
+    padding-left: 40px;
+}
+
+.bottom_pg p{
+    padding-top: 10px;
+}
